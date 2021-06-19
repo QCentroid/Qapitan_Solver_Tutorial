@@ -16,7 +16,7 @@ Once the problem has been choosen, let's see how we could create a solver associ
 ### solver documentation
 
 You must include in the root of the repository a (name-solver).md file that will contain the documentation you want to include about your solver, explaining, if any, the parameters that can be inserted by the end user. Continuing with our example, we would have created MyFirstAlgorithm.md:
-```md
+```txt
 ## MyFirstAlgorithm
 Test documentation associated with my solver.
 I don't have auxiliary parameters but I could define them like this:
