@@ -60,11 +60,11 @@ As you can see, from this file the only thing that will be done is to call the f
 
 ```json
 {
-    "data": {
-        "size": 50,
-    }
+    "input_data": {
+        "size": 50
+    },
     "solver_params":{
-    }
+    },
     "extra_arguments": {
     }
 }
