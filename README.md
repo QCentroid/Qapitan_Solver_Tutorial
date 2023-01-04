@@ -11,7 +11,7 @@ If you want to solve a new problem or modify an existing one, contact us here: i
 
 Once the problem has been choosen, let's see how we could create a solver associated to this problem in order to upload it to the Qapitan platform. First, we must prepare a Github repository with the following files:
 
-- Solver documentation
+- README.md
 - main.py
 - app.py
 - requirements.txt
