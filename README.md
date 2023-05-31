@@ -15,6 +15,7 @@ Once the problem has been choosen, let's see how we could create a solver associ
 - main.py
 - app.py
 - requirements.txt
+- tests
 
 
 ### Solver documentation
@@ -151,4 +152,22 @@ Once the repository has been defined with everything necessary, we must request 
 
 Once the request is made, we will check if you have access to the repository and if we cannot access it, we will send you an ssh key that you will have to insert in the repository configuration. Please note you need an active developer account in our platform for this process to work. If you don't have one contact us at info@qcentroid.xyz
 
+# tests
+
+This folder we can write pytests testing the funcions created by solver, we can add in this folder sample input data or output validation.
+
+the tests should start with `test_[text].py` to be executed by [pytest](https://docs.pytest.org/)
+
+```shell
+pip install -U pytest
+```
+to run locally all the tests:
+
+```shell
+pytest tests/
+```
+
+Additionally it [pytest-mock](https://pytest-mock.readthedocs.io/en/latest/usage.html) can be used to mock backend services or certain components as `black box`
+
+# Final
 Congratulations! with this little tutorial you have just seen how to create your first algorithm that you will be able to share on the QCentroid platform!
