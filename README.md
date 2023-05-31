@@ -46,10 +46,10 @@ def run(input_data, solver_params, extra_arguments):
     job = execute(qc, backend=backend, shots=size, memory=True)
     individual_shots = job.result().get_memory()
 
-    output = ''
-    for i in individual_shots:
-        output+=i
-
+    output = {}
+    for key, value in individual_shots:
+        output[key] = value
+    
     return output
 ```
 
